@@ -16,6 +16,21 @@ img{
     border-radius: 10px;
 }
 
+@media screen and (max-width: 780px){
+    .continer{
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+    }
+    
+    img{
+        padding-top: 20px;
+        width: 50%;
+    }
+    .product-card{
+        text-align: center;
+    }
+}
+
 @media screen and (max-width: 600px){
     .continer{
         display: grid;
