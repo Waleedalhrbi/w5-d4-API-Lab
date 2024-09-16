@@ -1,0 +1,32 @@
+.continer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    color: rgb(0, 0, 0);
+}
+
+img{
+    padding-top: 20px;
+    width: 50%;
+    
+}
+.product-card{
+    text-align: center;
+    background-color: rgb(180, 180, 195);
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 600px){
+    .continer{
+        display: grid;
+        grid-template-columns: 1fr ;
+    }
+    
+    img{
+        padding-top: 20px;
+        width: 50%;
+    }
+    .product-card{
+        text-align: center;
+    }
+}
